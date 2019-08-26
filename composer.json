@@ -11,8 +11,10 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    "psr-4": {
-        "Salesjet\\Laracms\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "Salesjet\\Laracms\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
