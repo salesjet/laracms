@@ -1,0 +1,24 @@
+{
+    "name": "salesjet/laracms",
+    "description": "a cms package of laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luzhang",
+            "email": "laracms@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "psr-4": {
+        "Salesjet\\Laracms\\": "src/"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Salesjet\\Laracms\\CmsServiceProvider"
+            ]
+        }
+    }
+}
