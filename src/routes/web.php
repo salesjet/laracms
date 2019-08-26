@@ -1,2 +1,4 @@
 <?php
-Route::get('laracms/test', 'SalesJet\Laracms\Http\Controllers\TestController@index');
+Route::group(['namespace'=>'Salesjet\Laracms\Http\Controllers'], function(){
+    Route::get('laracms/test', 'TestController@index');
+});

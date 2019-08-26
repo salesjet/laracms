@@ -13,8 +13,7 @@ class CmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-        //$this->app->make('Salesjet\Laracms\Http\Controllers\TestController');
+
     }
 
     /**
@@ -24,6 +23,6 @@ class CmsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 }
