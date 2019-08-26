@@ -17,7 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Salesjet\\Laracms\\CmsServiceProvider"
+                "Salesjet\\Laracms\\CmsServiceProvider"
+            ],
+            "dont-discover": [
+                "*"
             ]
         }
     }
